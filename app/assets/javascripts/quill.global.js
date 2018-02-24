@@ -11,14 +11,14 @@
             toolbar: [
                 [{ 'header': [1, 2, 3, false] }],
                 [{ 'color': [] }, { 'background': [] }],
-                ['bold', 'italic', 'underline', 'strike'],
-                ['blockquote', 'code-block'],
+                ['bold', 'italic'],
+                ['link', 'image'],
                 [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-                [{ 'indent': '-1'}, { 'indent': '+1' }],
                 ['clean']
             ]
         }
     };
+
 
     window.Quilljs = {
         //This method loads the default values from the global object
